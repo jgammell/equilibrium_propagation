@@ -1,0 +1,249 @@
+Parsing network settings...
+	Completed successfully
+	Time taken: 15.616 usec
+Initializing network...
+	Initializing indices...
+		Completed successfully
+		Time taken: 90.112 usec
+	Initializing seeds...
+		Completed successfully
+		Time taken: 277.248 usec
+	Initializing dataset...
+		Completed successfully.
+		Time taken: 1.418 sec
+	Initializing state...
+		Completed successfully
+		Time taken: 128.768 usec
+	Initializing persistent particles...
+		Completed successfully
+		Time taken: 3.149 msec
+	Initializing weights...
+		Completed successfully
+		Time taken: 41.857 msec
+	Initializing biases...
+		Completed successfully
+		Time taken: 47.616 usec
+	Completed successfully.
+	Time taken: 1.464 sec
+Network initialized successfully.
+	Layer sizes: 10-10-10-10-10-10-10-10-10-10-10-1
+	Network type: SW_no_intra
+	Bypass p: 0.100000
+	Bypass magnitude: 0.579000
+	Learning rate: 0.01
+		Using a single global learning rate.
+	Epsilon: 0.500000
+	Beta: 1.000000
+	Free iterations: 5000
+	Weakly-clamped iterations: 18
+	Dataset: Diabetes
+		Input: 10
+		Output: 1
+		Training batches: 80
+		Test batches: 8
+		Batch size: 5
+		Classification: False
+	Batch size: 5
+	Device: cuda
+	Seed: 0
+	State:
+		RMS value: 0.000000
+		Shape: 5 x 111
+	Persistent particles:
+		Number of persistent particles: 88
+		Max RMS persistent particle: 0.000000
+		Shape: 5 x 101
+	Weight matrices:
+		Actual p: 0.097
+		RMS W element: 0.034285
+		RMS W_mask element: 0.060397
+		W shape: 1 x 111 x 111
+		W_mask shape: 1 x 111 x 111
+		Interlayer connection mask shape: 1 x 111 x 111
+Starting epoch 1.
+	Done.
+	Time taken: 149.48229002952576
+	Training error: 0.029707576770114773
+	Test error: 0.0333222573951287
+Spread stdev: 1.073563194381741
+Parsing network settings...
+	Completed successfully
+	Time taken: 15.616 usec
+Initializing network...
+	Initializing indices...
+		Completed successfully
+		Time taken: 38.656 usec
+	Initializing seeds...
+		Completed successfully
+		Time taken: 39.424 usec
+	Initializing dataset...
+		Completed successfully.
+		Time taken: 17.027 msec
+	Initializing state...
+		Completed successfully
+		Time taken: 58.112 usec
+	Initializing persistent particles...
+		Completed successfully
+		Time taken: 2.905 msec
+	Initializing weights...
+		Completed successfully
+		Time taken: 25.233 msec
+	Initializing biases...
+		Completed successfully
+		Time taken: 43.264 usec
+	Completed successfully.
+	Time taken: 45.369 msec
+Network initialized successfully.
+	Layer sizes: 10-10-10-10-10-10-10-10-10-1
+	Network type: SW_no_intra
+	Bypass p: 0.100000
+	Bypass magnitude: 0.569000
+	Learning rate: 0.01
+		Using a single global learning rate.
+	Epsilon: 0.500000
+	Beta: 1.000000
+	Free iterations: 5000
+	Weakly-clamped iterations: 18
+	Dataset: Diabetes
+		Input: 10
+		Output: 1
+		Training batches: 80
+		Test batches: 8
+		Batch size: 5
+		Classification: False
+	Batch size: 5
+	Device: cuda
+	Seed: 0
+	State:
+		RMS value: 0.000000
+		Shape: 5 x 91
+	Persistent particles:
+		Number of persistent particles: 88
+		Max RMS persistent particle: 0.000000
+		Shape: 5 x 81
+	Weight matrices:
+		Actual p: 0.095
+		RMS W element: 0.038718
+		RMS W_mask element: 0.069717
+		W shape: 1 x 91 x 91
+		W_mask shape: 1 x 91 x 91
+		Interlayer connection mask shape: 1 x 91 x 91
+Starting epoch 1.
+	Done.
+	Time taken: 66.93675899505615
+	Training error: 0.06275587115601662
+	Test error: 0.050401563186930946
+Spread stdev: 0.4020833218452452
+Parsing network settings...
+	Completed successfully
+	Time taken: 17.408 usec
+Initializing network...
+	Initializing indices...
+		Completed successfully
+		Time taken: 46.336 usec
+	Initializing seeds...
+		Completed successfully
+		Time taken: 42.240 usec
+	Initializing dataset...
+		Completed successfully.
+		Time taken: 20.438 msec
+	Initializing state...
+		Completed successfully
+		Time taken: 67.072 usec
+	Initializing persistent particles...
+		Completed successfully
+		Time taken: 3.477 msec
+	Initializing weights...
+		Completed successfully
+		Time taken: 32.048 msec
+	Initializing biases...
+		Completed successfully
+		Time taken: 47.360 usec
+	Completed successfully.
+	Time taken: 56.197 msec
+Network initialized successfully.
+	Layer sizes: 10-10-10-10-10-10-10-10-10-1
+	Network type: SW_no_intra
+	Bypass p: 0.100000
+	Bypass magnitude: 0.569000
+	Learning rate: 0.01
+		Using a single global learning rate.
+	Epsilon: 0.500000
+	Beta: 1.000000
+	Free iterations: 5000
+	Weakly-clamped iterations: 18
+	Dataset: Diabetes
+		Input: 10
+		Output: 1
+		Training batches: 80
+		Test batches: 8
+		Batch size: 5
+		Classification: False
+	Batch size: 5
+	Device: cuda
+	Seed: 0
+	State:
+		RMS value: 0.000000
+		Shape: 5 x 91
+	Persistent particles:
+		Number of persistent particles: 88
+		Max RMS persistent particle: 0.000000
+		Shape: 5 x 81
+	Weight matrices:
+		Actual p: 0.095
+		RMS W element: 0.038718
+		RMS W_mask element: 0.069717
+		W shape: 1 x 91 x 91
+		W_mask shape: 1 x 91 x 91
+		Interlayer connection mask shape: 1 x 91 x 91
+Starting epoch 1.
+	Done.
+	Time taken: 101.53980445861816
+	Training error: 0.06275587115601662
+	Test error: 0.050401563186930946
+Starting epoch 2.
+	Done.
+	Time taken: 95.30565929412842
+	Training error: 0.03316245914096211
+	Test error: 0.041986950231678824
+Starting epoch 3.
+	Done.
+	Time taken: 81.68072962760925
+	Training error: 0.028128963104187693
+	Test error: 0.034593595258614246
+Starting epoch 4.
+	Done.
+	Time taken: 78.77027893066406
+	Training error: 0.028266388719832513
+	Test error: 0.03834232930118753
+Starting epoch 5.
+	Done.
+	Time taken: 78.73354625701904
+	Training error: 0.02590449119167674
+	Test error: 0.0333208170893836
+Starting epoch 6.
+	Done.
+	Time taken: 77.86591219902039
+	Training error: 0.02670750322874745
+	Test error: 0.03999583630721239
+Starting epoch 7.
+	Done.
+	Time taken: 76.65103840827942
+	Training error: 0.025830106565115852
+	Test error: 0.03374908444341162
+Starting epoch 8.
+	Done.
+	Time taken: 76.56409692764282
+	Training error: 0.024402369450586804
+	Test error: 0.0348373937138592
+Starting epoch 9.
+	Done.
+	Time taken: 76.66142153739929
+	Training error: 0.023188262933738338
+	Test error: 0.03317105055130086
+Starting epoch 10.
+	Done.
+	Time taken: 76.5630533695221
+	Training error: 0.022985975498368973
+	Test error: 0.03386435315048161
+Spread stdev: 0.44240003149858576

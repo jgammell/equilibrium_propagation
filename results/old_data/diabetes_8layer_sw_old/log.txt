@@ -1,0 +1,111 @@
+Parsing network settings...
+	Completed successfully
+	Time taken: 13.312 usec
+Initializing network...
+	Initializing indices...
+		Completed successfully
+		Time taken: 76.800 usec
+	Initializing seeds...
+		Completed successfully
+		Time taken: 228.608 usec
+	Initializing dataset...
+		Completed successfully.
+		Time taken: 1.163 sec
+	Initializing state...
+		Completed successfully
+		Time taken: 97.280 usec
+	Initializing persistent particles...
+		Completed successfully
+		Time taken: 2.663 msec
+	Initializing weights...
+		Completed successfully
+		Time taken: 22.433 msec
+	Initializing biases...
+		Completed successfully
+		Time taken: 35.328 usec
+	Completed successfully.
+	Time taken: 1.189 sec
+Network initialized successfully.
+	Layer sizes: 10-10-10-10-10-10-10-10-10-1
+	Network type: SW_intra
+	Bypass p: 0.075600
+	Bypass magnitude: 0.568000
+	Learning rate: 0.010000
+	Epsilon: 0.500000
+	Beta: 1.000000
+	Free iterations: 5000
+	Weakly-clamped iterations: 18
+	Dataset: Diabetes
+		Input: 10
+		Output: 1
+		Training batches: 80
+		Test batches: 8
+		Batch size: 5
+		Classification: False
+	Batch size: 5
+	Device: cuda
+	Seed: 0
+	State:
+		RMS value: 0.000000
+		Shape: 5 x 91
+	Persistent particles:
+		Number of persistent particles: 88
+		Max RMS persistent particle: 0.000000
+		Shape: 5 x 81
+	Weight matrices:
+		Actual p: 0.075
+		RMS W element: 0.043348
+		RMS W_mask element: 0.076544
+		W shape: 1 x 91 x 91
+		W_mask shape: 1 x 91 x 91
+		Interlayer connection mask shape: 1 x 91 x 91
+Starting epoch 1.
+	Done.
+	Time taken: 62.96804904937744
+	Training error: 0.01869052631787743
+	Test error: 0.008576469812517449
+Starting epoch 2.
+	Done.
+	Time taken: 64.46688437461853
+	Training error: 0.007546416158224956
+	Test error: 0.007897633694237873
+Starting epoch 3.
+	Done.
+	Time taken: 65.50368618965149
+	Training error: 0.008449561480843313
+	Test error: 0.01109364620058055
+Starting epoch 4.
+	Done.
+	Time taken: 66.38908171653748
+	Training error: 0.00849450852055189
+	Test error: 0.009535536352085601
+Starting epoch 5.
+	Done.
+	Time taken: 67.20394468307495
+	Training error: 0.006968210230879016
+	Test error: 0.007938394213512045
+Starting epoch 6.
+	Done.
+	Time taken: 67.93983387947083
+	Training error: 0.008306925609028687
+	Test error: 0.011084404186068183
+Starting epoch 7.
+	Done.
+	Time taken: 64.29117107391357
+	Training error: 0.00804364405385723
+	Test error: 0.007410982497594959
+Starting epoch 8.
+	Done.
+	Time taken: 64.8360652923584
+	Training error: 0.007716484142234235
+	Test error: 0.008502688052205812
+Starting epoch 9.
+	Done.
+	Time taken: 65.33517479896545
+	Training error: 0.006718604535675708
+	Test error: 0.006960914397318084
+Starting epoch 10.
+	Done.
+	Time taken: 65.70929741859436
+	Training error: 0.006585847203876522
+	Test error: 0.008624902674261537

@@ -1,0 +1,175 @@
+Parsing network settings...
+	Completed successfully
+	Time taken: 13.312 usec
+Initializing network...
+	Initializing indices...
+		Completed successfully
+		Time taken: 83.968 usec
+	Initializing seeds...
+		Completed successfully
+		Time taken: 280.064 usec
+	Initializing dataset...
+		Completed successfully.
+		Time taken: 1.308 sec
+	Initializing state...
+		Completed successfully
+		Time taken: 118.784 usec
+	Initializing persistent particles...
+		Completed successfully
+		Time taken: 2.772 msec
+	Initializing weights...
+		Completed successfully
+		Time taken: 7.297 msec
+	Initializing biases...
+		Completed successfully
+		Time taken: 40.704 usec
+	Completed successfully.
+	Time taken: 1.319 sec
+Network initialized successfully.
+	Layer sizes: 10-10-10-10-10-10-1
+	Network type: MLFF
+	Bypass p: n/a
+	Bypass magnitude: n/a
+	Learning rate: 0.01
+		Using a single global learning rate.
+	Epsilon: 0.500000
+	Beta: 1.000000
+	Free iterations: 1000
+	Weakly-clamped iterations: 12
+	Dataset: Diabetes
+		Input: 10
+		Output: 1
+		Training batches: 80
+		Test batches: 8
+		Batch size: 5
+		Classification: False
+	Batch size: 5
+	Device: cuda
+	Seed: 0
+	State:
+		RMS value: 0.000000
+		Shape: 5 x 61
+	Persistent particles:
+		Number of persistent particles: 88
+		Max RMS persistent particle: 0.000000
+		Shape: 5 x 51
+	Weight matrices:
+		Actual p: 0.000
+		RMS W element: 0.052182
+		RMS W_mask element: 0.092645
+		W shape: 1 x 61 x 61
+		W_mask shape: 1 x 61 x 61
+		Interlayer connection mask shape: 1 x 61 x 61
+Starting epoch 1.
+	Done.
+	Time taken: 14.219612836837769
+	Training error: 0.06644126459552831
+	Test error: 0.04750259354139945
+Starting epoch 2.
+	Done.
+	Time taken: 14.54318118095398
+	Training error: 0.03283934687837474
+	Test error: 0.04689782058101089
+Starting epoch 3.
+	Done.
+	Time taken: 14.629916191101074
+	Training error: 0.03339194878527259
+	Test error: 0.04882936017706871
+Starting epoch 4.
+	Done.
+	Time taken: 14.897150993347168
+	Training error: 0.036278676434445586
+	Test error: 0.05210782330472053
+Starting epoch 5.
+	Done.
+	Time taken: 14.989566087722778
+	Training error: 0.0343190206995178
+	Test error: 0.048276043534607696
+Starting epoch 6.
+	Done.
+	Time taken: 15.216405391693115
+	Training error: 0.035368736994146555
+	Test error: 0.05077809298677902
+Starting epoch 7.
+	Done.
+	Time taken: 15.41495156288147
+	Training error: 0.03783671924892742
+	Test error: 0.046931336539451765
+Starting epoch 8.
+	Done.
+	Time taken: 15.623623609542847
+	Training error: 0.036681922251789574
+	Test error: 0.04935285311272111
+Starting epoch 9.
+	Done.
+	Time taken: 14.441022872924805
+	Training error: 0.03491587674018477
+	Test error: 0.04382703012434346
+Starting epoch 10.
+	Done.
+	Time taken: 14.609483480453491
+	Training error: 0.03258286173568952
+	Test error: 0.04408877372005412
+Spread stdev: 1.0853921602266907
+Parsing network settings...
+	Completed successfully
+	Time taken: 16.128 usec
+Initializing network...
+	Initializing indices...
+		Completed successfully
+		Time taken: 41.216 usec
+	Initializing seeds...
+		Completed successfully
+		Time taken: 39.680 usec
+	Initializing dataset...
+		Completed successfully.
+		Time taken: 18.023 msec
+	Initializing state...
+		Completed successfully
+		Time taken: 61.440 usec
+	Initializing persistent particles...
+		Completed successfully
+		Time taken: 3.025 msec
+	Initializing weights...
+		Completed successfully
+		Time taken: 13.174 msec
+	Initializing biases...
+		Completed successfully
+		Time taken: 42.752 usec
+	Completed successfully.
+	Time taken: 34.433 msec
+Network initialized successfully.
+	Layer sizes: 10-10-10-10-10-10-1
+	Network type: SW_no_intra
+	Bypass p: 0.100000
+	Bypass magnitude: 0.579000
+	Learning rate: 0.01
+		Using a single global learning rate.
+	Epsilon: 0.500000
+	Beta: 1.000000
+	Free iterations: 1000
+	Weakly-clamped iterations: 12
+	Dataset: Diabetes
+		Input: 10
+		Output: 1
+		Training batches: 80
+		Test batches: 8
+		Batch size: 5
+		Classification: False
+	Batch size: 5
+	Device: cuda
+	Seed: 0
+	State:
+		RMS value: 0.000000
+		Shape: 5 x 61
+	Persistent particles:
+		Number of persistent particles: 88
+		Max RMS persistent particle: 0.000000
+		Shape: 5 x 51
+	Weight matrices:
+		Actual p: 0.100
+		RMS W element: 0.052179
+		RMS W_mask element: 0.092645
+		W shape: 1 x 61 x 61
+		W_mask shape: 1 x 61 x 61
+		Interlayer connection mask shape: 1 x 61 x 61

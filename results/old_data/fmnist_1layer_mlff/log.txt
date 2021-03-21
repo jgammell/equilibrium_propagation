@@ -1,0 +1,561 @@
+Parsing network settings...
+	Completed successfully
+	Time taken: 17.408 usec
+Initializing network...
+	Initializing indices...
+		Completed successfully
+		Time taken: 81.408 usec
+	Initializing seeds...
+		Completed successfully
+		Time taken: 45.056 usec
+	Initializing dataset...
+		Completed successfully.
+		Time taken: 6.917 sec
+	Initializing state...
+		Completed successfully
+		Time taken: 158.976 usec
+	Initializing persistent particles...
+		Completed successfully
+		Time taken: 147.066 msec
+	Initializing weights...
+		Completed successfully
+		Time taken: 87.548 msec
+	Initializing biases...
+		Completed successfully
+		Time taken: 87.040 usec
+	Completed successfully.
+	Time taken: 7.152 sec
+Network initialized successfully.
+	Layer sizes: 784-500-10
+	Network type: MLFF
+	Bypass p: n/a
+	Bypass magnitude: n/a
+	Learning rate: 0.050000
+	Epsilon: 0.500000
+	Beta: 1.000000
+	Free iterations: 20
+	Weakly-clamped iterations: 4
+	Dataset: Fashion MNIST
+		Input: 784
+		Output: 10
+		Training batches: 3000
+		Test batches: 500
+		Batch size: 20
+		Classification: True
+	Batch size: 20
+	Device: cuda
+	Seed: 0
+	State:
+		RMS value: 0.000000
+		Shape: 20 x 1294
+	Persistent particles:
+		Number of persistent particles: 3500
+		Max RMS persistent particle: 0.000000
+		Shape: 20 x 510
+	Weight matrices:
+		Actual p: 0.000
+		RMS W element: 0.004607
+		RMS W_mask element: 0.023069
+		W shape: 1 x 1294 x 1294
+		W_mask shape: 1 x 1294 x 1294
+		Interlayer connection mask shape: 1 x 1294 x 1294
+Starting epoch 1.
+	Done.
+	Time taken: 42.16690182685852
+	Training error: 0.1954
+	Test error: 0.16649999999999998
+Starting epoch 2.
+	Done.
+	Time taken: 42.1489098072052
+	Training error: 0.15466666666666667
+	Test error: 0.15380000000000005
+Starting epoch 3.
+	Done.
+	Time taken: 42.148470640182495
+	Training error: 0.142
+	Test error: 0.1471
+Starting epoch 4.
+	Done.
+	Time taken: 42.150336265563965
+	Training error: 0.1305
+	Test error: 0.14500000000000002
+Starting epoch 5.
+	Done.
+	Time taken: 42.14944338798523
+	Training error: 0.1238
+	Test error: 0.14690000000000003
+Starting epoch 6.
+	Done.
+	Time taken: 42.14870309829712
+	Training error: 0.11986666666666666
+	Test error: 0.15290000000000004
+Starting epoch 7.
+	Done.
+	Time taken: 42.149070262908936
+	Training error: 0.115
+	Test error: 0.13770000000000004
+Starting epoch 8.
+	Done.
+	Time taken: 42.14745020866394
+	Training error: 0.11081666666666666
+	Test error: 0.14429999999999998
+Starting epoch 9.
+	Done.
+	Time taken: 42.1473228931427
+	Training error: 0.10676666666666666
+	Test error: 0.13270000000000004
+Starting epoch 10.
+	Done.
+	Time taken: 42.14643406867981
+	Training error: 0.10468333333333334
+	Test error: 0.13859999999999995
+Starting epoch 11.
+	Done.
+	Time taken: 42.14661645889282
+	Training error: 0.10165
+	Test error: 0.1441
+Starting epoch 12.
+	Done.
+	Time taken: 42.145615100860596
+	Training error: 0.09875
+	Test error: 0.131
+Starting epoch 13.
+	Done.
+	Time taken: 42.147438526153564
+	Training error: 0.09408333333333334
+	Test error: 0.12860000000000005
+Starting epoch 14.
+	Done.
+	Time taken: 42.14708232879639
+	Training error: 0.09278333333333333
+	Test error: 0.13129999999999997
+Starting epoch 15.
+	Done.
+	Time taken: 42.1456241607666
+	Training error: 0.09128333333333333
+	Test error: 0.124
+Starting epoch 16.
+	Done.
+	Time taken: 42.17690944671631
+	Training error: 0.08781666666666667
+	Test error: 0.12649999999999995
+Starting epoch 17.
+	Done.
+	Time taken: 42.143874645233154
+	Training error: 0.08603333333333334
+	Test error: 0.12949999999999995
+Starting epoch 18.
+	Done.
+	Time taken: 42.14553141593933
+	Training error: 0.08431666666666666
+	Test error: 0.12560000000000004
+Starting epoch 19.
+	Done.
+	Time taken: 42.14663887023926
+	Training error: 0.08245
+	Test error: 0.13739999999999997
+Starting epoch 20.
+	Done.
+	Time taken: 42.143423318862915
+	Training error: 0.07946666666666667
+	Test error: 0.13929999999999998
+Starting epoch 21.
+	Done.
+	Time taken: 42.143975019454956
+	Training error: 0.07841666666666666
+	Test error: 0.1422
+Starting epoch 22.
+	Done.
+	Time taken: 42.14458131790161
+	Training error: 0.07615
+	Test error: 0.13049999999999995
+Starting epoch 23.
+	Done.
+	Time taken: 42.14502835273743
+	Training error: 0.075
+	Test error: 0.12960000000000005
+Starting epoch 24.
+	Done.
+	Time taken: 42.145293951034546
+	Training error: 0.07428333333333334
+	Test error: 0.12780000000000002
+Starting epoch 25.
+	Done.
+	Time taken: 42.14586591720581
+	Training error: 0.07238333333333333
+	Test error: 0.12890000000000001
+Starting epoch 26.
+	Done.
+	Time taken: 42.14601230621338
+	Training error: 0.07111666666666666
+	Test error: 0.12619999999999998
+Starting epoch 27.
+	Done.
+	Time taken: 42.17536664009094
+	Training error: 0.07055
+	Test error: 0.13119999999999998
+Starting epoch 28.
+	Done.
+	Time taken: 42.14407658576965
+	Training error: 0.06941666666666667
+	Test error: 0.1321
+Starting epoch 29.
+	Done.
+	Time taken: 42.1437828540802
+	Training error: 0.06791666666666667
+	Test error: 0.13070000000000004
+Starting epoch 30.
+	Done.
+	Time taken: 42.1609890460968
+	Training error: 0.06766666666666667
+	Test error: 0.12819999999999998
+Starting epoch 31.
+	Done.
+	Time taken: 42.16706705093384
+	Training error: 0.06556666666666666
+	Test error: 0.13070000000000004
+Starting epoch 32.
+	Done.
+	Time taken: 42.1565945148468
+	Training error: 0.06461666666666667
+	Test error: 0.13429999999999997
+Starting epoch 33.
+	Done.
+	Time taken: 42.15637969970703
+	Training error: 0.0636
+	Test error: 0.1321
+Starting epoch 34.
+	Done.
+	Time taken: 42.153661489486694
+	Training error: 0.0625
+	Test error: 0.13039999999999996
+Starting epoch 35.
+	Done.
+	Time taken: 42.15217900276184
+	Training error: 0.06183333333333333
+	Test error: 0.1341
+Starting epoch 36.
+	Done.
+	Time taken: 42.15201807022095
+	Training error: 0.06021666666666667
+	Test error: 0.13560000000000005
+Starting epoch 37.
+	Done.
+	Time taken: 42.15006875991821
+	Training error: 0.05973333333333333
+	Test error: 0.13080000000000003
+Starting epoch 38.
+	Done.
+	Time taken: 42.15189576148987
+	Training error: 0.05831666666666667
+	Test error: 0.12980000000000003
+Starting epoch 39.
+	Done.
+	Time taken: 42.1511435508728
+	Training error: 0.057683333333333336
+	Test error: 0.13549999999999995
+Starting epoch 40.
+	Done.
+	Time taken: 42.149922370910645
+	Training error: 0.057433333333333336
+	Test error: 0.13639999999999997
+Starting epoch 41.
+	Done.
+	Time taken: 42.14942455291748
+	Training error: 0.056883333333333334
+	Test error: 0.13149999999999995
+Starting epoch 42.
+	Done.
+	Time taken: 42.13890552520752
+	Training error: 0.0567
+	Test error: 0.128
+Starting epoch 43.
+	Done.
+	Time taken: 42.13996338844299
+	Training error: 0.054933333333333334
+	Test error: 0.1291
+Starting epoch 44.
+	Done.
+	Time taken: 42.143436670303345
+	Training error: 0.05366666666666667
+	Test error: 0.12970000000000004
+Starting epoch 45.
+	Done.
+	Time taken: 42.14915108680725
+	Training error: 0.05365
+	Test error: 0.132
+Starting epoch 46.
+	Done.
+	Time taken: 42.15040850639343
+	Training error: 0.05276666666666667
+	Test error: 0.12870000000000004
+Starting epoch 47.
+	Done.
+	Time taken: 42.151845932006836
+	Training error: 0.05295
+	Test error: 0.131
+Starting epoch 48.
+	Done.
+	Time taken: 42.15225267410278
+	Training error: 0.05266666666666667
+	Test error: 0.13460000000000005
+Starting epoch 49.
+	Done.
+	Time taken: 42.15262818336487
+	Training error: 0.0507
+	Test error: 0.133
+Starting epoch 50.
+	Done.
+	Time taken: 42.154669761657715
+	Training error: 0.0489
+	Test error: 0.134
+Starting epoch 51.
+	Done.
+	Time taken: 42.15333819389343
+	Training error: 0.04875
+	Test error: 0.13639999999999997
+Starting epoch 52.
+	Done.
+	Time taken: 42.15463614463806
+	Training error: 0.048916666666666664
+	Test error: 0.13590000000000002
+Starting epoch 53.
+	Done.
+	Time taken: 42.155657052993774
+	Training error: 0.04836666666666667
+	Test error: 0.13470000000000004
+Starting epoch 54.
+	Done.
+	Time taken: 42.15435290336609
+	Training error: 0.047983333333333336
+	Test error: 0.1281
+Starting epoch 55.
+	Done.
+	Time taken: 42.15658164024353
+	Training error: 0.047066666666666666
+	Test error: 0.12890000000000001
+Starting epoch 56.
+	Done.
+	Time taken: 42.154842138290405
+	Training error: 0.04725
+	Test error: 0.1269
+Starting epoch 57.
+	Done.
+	Time taken: 42.15672016143799
+	Training error: 0.04663333333333333
+	Test error: 0.12649999999999995
+Starting epoch 58.
+	Done.
+	Time taken: 42.15761947631836
+	Training error: 0.04583333333333333
+	Test error: 0.12450000000000006
+Starting epoch 59.
+	Done.
+	Time taken: 42.15684986114502
+	Training error: 0.046
+	Test error: 0.12539999999999996
+Starting epoch 60.
+	Done.
+	Time taken: 42.156765937805176
+	Training error: 0.04446666666666667
+	Test error: 0.12749999999999995
+Starting epoch 61.
+	Done.
+	Time taken: 42.1582190990448
+	Training error: 0.04416666666666667
+	Test error: 0.1259
+Starting epoch 62.
+	Done.
+	Time taken: 42.158292055130005
+	Training error: 0.04465
+	Test error: 0.12949999999999995
+Starting epoch 63.
+	Done.
+	Time taken: 42.158403158187866
+	Training error: 0.04298333333333333
+	Test error: 0.12480000000000002
+Starting epoch 64.
+	Done.
+	Time taken: 42.15870237350464
+	Training error: 0.04285
+	Test error: 0.125
+Starting epoch 65.
+	Done.
+	Time taken: 42.15600085258484
+	Training error: 0.043666666666666666
+	Test error: 0.12280000000000002
+Starting epoch 66.
+	Done.
+	Time taken: 42.159165382385254
+	Training error: 0.043583333333333335
+	Test error: 0.12229999999999996
+Starting epoch 67.
+	Done.
+	Time taken: 42.19088172912598
+	Training error: 0.04173333333333333
+	Test error: 0.12680000000000002
+Starting epoch 68.
+	Done.
+	Time taken: 42.16033148765564
+	Training error: 0.042216666666666666
+	Test error: 0.138
+Starting epoch 69.
+	Done.
+	Time taken: 42.15919232368469
+	Training error: 0.04073333333333334
+	Test error: 0.13319999999999999
+Starting epoch 70.
+	Done.
+	Time taken: 42.16000485420227
+	Training error: 0.04041666666666666
+	Test error: 0.12619999999999998
+Starting epoch 71.
+	Done.
+	Time taken: 42.15954327583313
+	Training error: 0.039733333333333336
+	Test error: 0.12529999999999997
+Starting epoch 72.
+	Done.
+	Time taken: 42.158117055892944
+	Training error: 0.040266666666666666
+	Test error: 0.12480000000000002
+Starting epoch 73.
+	Done.
+	Time taken: 42.159905195236206
+	Training error: 0.0396
+	Test error: 0.12450000000000006
+Starting epoch 74.
+	Done.
+	Time taken: 42.15883779525757
+	Training error: 0.04053333333333333
+	Test error: 0.13149999999999995
+Starting epoch 75.
+	Done.
+	Time taken: 42.15759325027466
+	Training error: 0.03855
+	Test error: 0.1281
+Starting epoch 76.
+	Done.
+	Time taken: 42.15888071060181
+	Training error: 0.03816666666666667
+	Test error: 0.13160000000000005
+Starting epoch 77.
+	Done.
+	Time taken: 42.16077184677124
+	Training error: 0.0375
+	Test error: 0.12729999999999997
+Starting epoch 78.
+	Done.
+	Time taken: 42.15840792655945
+	Training error: 0.037033333333333335
+	Test error: 0.12519999999999998
+Starting epoch 79.
+	Done.
+	Time taken: 42.15933704376221
+	Training error: 0.03666666666666667
+	Test error: 0.12570000000000003
+Starting epoch 80.
+	Done.
+	Time taken: 42.15967512130737
+	Training error: 0.03645
+	Test error: 0.12719999999999998
+Starting epoch 81.
+	Done.
+	Time taken: 42.15763545036316
+	Training error: 0.0362
+	Test error: 0.12819999999999998
+Starting epoch 82.
+	Done.
+	Time taken: 42.15811634063721
+	Training error: 0.03576666666666667
+	Test error: 0.12519999999999998
+Starting epoch 83.
+	Done.
+	Time taken: 42.15765118598938
+	Training error: 0.03525
+	Test error: 0.12439999999999996
+Starting epoch 84.
+	Done.
+	Time taken: 42.15723180770874
+	Training error: 0.0349
+	Test error: 0.12570000000000003
+Starting epoch 85.
+	Done.
+	Time taken: 42.15692901611328
+	Training error: 0.0349
+	Test error: 0.12280000000000002
+Starting epoch 86.
+	Done.
+	Time taken: 42.15837788581848
+	Training error: 0.0338
+	Test error: 0.12819999999999998
+Starting epoch 87.
+	Done.
+	Time taken: 42.15573239326477
+	Training error: 0.03385
+	Test error: 0.12760000000000005
+Starting epoch 88.
+	Done.
+	Time taken: 42.15529274940491
+	Training error: 0.033016666666666666
+	Test error: 0.12539999999999996
+Starting epoch 89.
+	Done.
+	Time taken: 42.15607929229736
+	Training error: 0.032716666666666665
+	Test error: 0.12409999999999999
+Starting epoch 90.
+	Done.
+	Time taken: 42.15446400642395
+	Training error: 0.032733333333333337
+	Test error: 0.1352
+Starting epoch 91.
+	Done.
+	Time taken: 42.15506315231323
+	Training error: 0.03266666666666666
+	Test error: 0.12529999999999997
+Starting epoch 92.
+	Done.
+	Time taken: 42.15414881706238
+	Training error: 0.033183333333333336
+	Test error: 0.12409999999999999
+Starting epoch 93.
+	Done.
+	Time taken: 42.154547929763794
+	Training error: 0.03306666666666667
+	Test error: 0.124
+Starting epoch 94.
+	Done.
+	Time taken: 42.15505003929138
+	Training error: 0.03175
+	Test error: 0.12280000000000002
+Starting epoch 95.
+	Done.
+	Time taken: 42.15632653236389
+	Training error: 0.03265
+	Test error: 0.12339999999999995
+Starting epoch 96.
+	Done.
+	Time taken: 42.18706011772156
+	Training error: 0.03326666666666667
+	Test error: 0.1259
+Starting epoch 97.
+	Done.
+	Time taken: 42.155203342437744
+	Training error: 0.03278333333333333
+	Test error: 0.12629999999999997
+Starting epoch 98.
+	Done.
+	Time taken: 42.153589487075806
+	Training error: 0.03205
+	Test error: 0.12370000000000003
+Starting epoch 99.
+	Done.
+	Time taken: 42.154680252075195
+	Training error: 0.032233333333333336
+	Test error: 0.12260000000000004
+Starting epoch 100.
+	Done.
+	Time taken: 42.15322017669678
+	Training error: 0.030866666666666667
+	Test error: 0.12370000000000003

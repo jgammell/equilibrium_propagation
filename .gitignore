@@ -3,5 +3,4 @@
 *.pickle
 *.png
 datasets/*
-results/*/*
 */__pycache__

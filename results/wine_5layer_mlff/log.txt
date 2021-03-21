@@ -1,0 +1,294 @@
+Parsing network settings...
+	Completed successfully
+	Time taken: 12.032 usec
+Initializing network...
+	Initializing indices...
+		Completed successfully
+		Time taken: 84.736 usec
+	Initializing seeds...
+		Completed successfully
+		Time taken: 247.808 usec
+	Initializing dataset...
+		Completed successfully.
+		Time taken: 1.251 sec
+	Initializing state...
+		Completed successfully
+		Time taken: 118.528 usec
+	Initializing persistent particles...
+		Completed successfully
+		Time taken: 1.122 msec
+	Initializing weights...
+		Completed successfully
+		Time taken: 5.392 msec
+	Initializing biases...
+		Completed successfully
+		Time taken: 38.912 usec
+	Completed successfully.
+	Time taken: 1.258 sec
+Network initialized successfully.
+	Layer sizes: 13-10-10-10-10-10-3
+	Network type: MLFF
+	Bypass p: n/a
+	Bypass magnitude: n/a
+	Learning rate: 0.01
+		Using a single global learning rate.
+	Epsilon: 0.500000
+	Beta: 1.000000
+	Free iterations: 1000
+	Weakly-clamped iterations: 12
+	Dataset: Wine
+		Input: 13
+		Output: 3
+		Training batches: 30
+		Test batches: 5
+		Batch size: 5
+		Classification: True
+	Batch size: 5
+	Device: cuda
+	Seed: 0
+	State:
+		RMS value: 0.000000
+		Shape: 5 x 66
+	Persistent particles:
+		Number of persistent particles: 35
+		Max RMS persistent particle: 0.000000
+		Shape: 5 x 53
+	Weight matrices:
+		Actual p: 0.000
+		RMS W element: 0.050454
+		RMS W_mask element: 0.087652
+		W shape: 1 x 66 x 66
+		W_mask shape: 1 x 66 x 66
+		Interlayer connection mask shape: 1 x 66 x 66
+Starting epoch 1.
+	Done.
+	Time taken: 5.423589468002319
+	Training error: 0.7466666666666667
+	Test error: 0.6
+Spread stdev: 1.150451900257306
+Parsing network settings...
+	Completed successfully
+	Time taken: 11.776 usec
+Initializing network...
+	Initializing indices...
+		Completed successfully
+		Time taken: 83.200 usec
+	Initializing seeds...
+		Completed successfully
+		Time taken: 249.344 usec
+	Initializing dataset...
+		Completed successfully.
+		Time taken: 1.265 sec
+	Initializing state...
+		Completed successfully
+		Time taken: 123.904 usec
+	Initializing persistent particles...
+		Completed successfully
+		Time taken: 1.156 msec
+	Initializing weights...
+		Completed successfully
+		Time taken: 5.526 msec
+	Initializing biases...
+		Completed successfully
+		Time taken: 38.912 usec
+	Completed successfully.
+	Time taken: 1.272 sec
+Network initialized successfully.
+	Layer sizes: 13-10-10-10-10-10-3
+	Network type: MLFF
+	Bypass p: n/a
+	Bypass magnitude: n/a
+	Learning rate: 0.01
+		Using a single global learning rate.
+	Epsilon: 0.500000
+	Beta: 1.000000
+	Free iterations: 1000
+	Weakly-clamped iterations: 12
+	Dataset: Wine
+		Input: 13
+		Output: 3
+		Training batches: 30
+		Test batches: 5
+		Batch size: 5
+		Classification: True
+	Batch size: 5
+	Device: cuda
+	Seed: 0
+	State:
+		RMS value: 0.000000
+		Shape: 5 x 66
+	Persistent particles:
+		Number of persistent particles: 35
+		Max RMS persistent particle: 0.000000
+		Shape: 5 x 53
+	Weight matrices:
+		Actual p: 0.000
+		RMS W element: 0.050454
+		RMS W_mask element: 0.087652
+		W shape: 1 x 66 x 66
+		W_mask shape: 1 x 66 x 66
+		Interlayer connection mask shape: 1 x 66 x 66
+Starting epoch 1.
+	Done.
+	Time taken: 5.304724216461182
+	Training error: 0.7466666666666667
+	Test error: 0.6
+Starting epoch 2.
+	Done.
+	Time taken: 5.390132188796997
+	Training error: 0.7066666666666667
+	Test error: 0.6
+Starting epoch 3.
+	Done.
+	Time taken: 5.423088788986206
+	Training error: 0.64
+	Test error: 0.6
+Starting epoch 4.
+	Done.
+	Time taken: 5.42068076133728
+	Training error: 0.6733333333333333
+	Test error: 0.6
+Starting epoch 5.
+	Done.
+	Time taken: 5.416062116622925
+	Training error: 0.6866666666666666
+	Test error: 0.6
+Starting epoch 6.
+	Done.
+	Time taken: 5.419637680053711
+	Training error: 0.6666666666666666
+	Test error: 0.6
+Starting epoch 7.
+	Done.
+	Time taken: 5.513414621353149
+	Training error: 0.6533333333333333
+	Test error: 0.6
+Starting epoch 8.
+	Done.
+	Time taken: 5.531587839126587
+	Training error: 0.6133333333333333
+	Test error: 0.6
+Starting epoch 9.
+	Done.
+	Time taken: 5.532787322998047
+	Training error: 0.6333333333333333
+	Test error: 0.6
+Starting epoch 10.
+	Done.
+	Time taken: 5.5494701862335205
+	Training error: 0.6466666666666666
+	Test error: 0.6
+Spread stdev: 1.304897207070077
+Parsing network settings...
+	Completed successfully
+	Time taken: 13.312 usec
+Initializing network...
+	Initializing indices...
+		Completed successfully
+		Time taken: 84.736 usec
+	Initializing seeds...
+		Completed successfully
+		Time taken: 252.672 usec
+	Initializing dataset...
+		Completed successfully.
+		Time taken: 1.270 sec
+	Initializing state...
+		Completed successfully
+		Time taken: 136.960 usec
+	Initializing persistent particles...
+		Completed successfully
+		Time taken: 1.157 msec
+	Initializing weights...
+		Completed successfully
+		Time taken: 5.460 msec
+	Initializing biases...
+		Completed successfully
+		Time taken: 38.400 usec
+	Completed successfully.
+	Time taken: 1.277 sec
+Network initialized successfully.
+	Layer sizes: 13-10-10-10-10-10-3
+	Network type: MLFF
+	Bypass p: n/a
+	Bypass magnitude: n/a
+	Learning rate: 0.01
+		Using a single global learning rate.
+	Epsilon: 0.500000
+	Beta: 1.000000
+	Free iterations: 1000
+	Weakly-clamped iterations: 12
+	Dataset: Wine
+		Input: 13
+		Output: 3
+		Training batches: 30
+		Test batches: 5
+		Batch size: 5
+		Classification: True
+	Batch size: 5
+	Device: cuda
+	Seed: 0
+	State:
+		RMS value: 0.000000
+		Shape: 5 x 66
+	Persistent particles:
+		Number of persistent particles: 35
+		Max RMS persistent particle: 0.000000
+		Shape: 5 x 53
+	Weight matrices:
+		Actual p: 0.000
+		RMS W element: 0.050454
+		RMS W_mask element: 0.087652
+		W shape: 1 x 66 x 66
+		W_mask shape: 1 x 66 x 66
+		Interlayer connection mask shape: 1 x 66 x 66
+Starting epoch 1.
+	Done.
+	Time taken: 5.397955894470215
+	Training error: 0.66
+	Test error: 0.84
+Starting epoch 2.
+	Done.
+	Time taken: 5.488662242889404
+	Training error: 0.6666666666666666
+	Test error: 0.52
+Starting epoch 3.
+	Done.
+	Time taken: 5.549674034118652
+	Training error: 0.6733333333333333
+	Test error: 0.72
+Starting epoch 4.
+	Done.
+	Time taken: 5.595317363739014
+	Training error: 0.64
+	Test error: 0.52
+Starting epoch 5.
+	Done.
+	Time taken: 5.598023414611816
+	Training error: 0.6533333333333333
+	Test error: 0.72
+Starting epoch 6.
+	Done.
+	Time taken: 5.593365669250488
+	Training error: 0.7266666666666667
+	Test error: 0.72
+Starting epoch 7.
+	Done.
+	Time taken: 5.624603033065796
+	Training error: 0.6666666666666666
+	Test error: 0.76
+Starting epoch 8.
+	Done.
+	Time taken: 5.64736795425415
+	Training error: 0.6866666666666666
+	Test error: 0.76
+Starting epoch 9.
+	Done.
+	Time taken: 5.649936199188232
+	Training error: 0.7
+	Test error: 0.76
+Starting epoch 10.
+	Done.
+	Time taken: 5.6668524742126465
+	Training error: 0.68
+	Test error: 0.76
+Spread stdev: 1.2160311283466254
